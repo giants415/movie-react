@@ -1,0 +1,34 @@
+{
+  "name": "movie-react",
+  "version": "1.0.0",
+  "description": "React based app that will eventually consume the movie db api",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giants415/movie-react.git"
+  },
+  "author": "Andrew Vinocur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giants415/movie-react/issues"
+  },
+  "homepage": "https://github.com/giants415/movie-react#readme"
+}

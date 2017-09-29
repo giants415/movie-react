@@ -16,8 +16,8 @@ class MovieComponent extends React.Component {
     return(
       <div>
         <img src={this.movie.poster} />
-        {this.movie.title}
-        {this.movie.summary}
+        <p>Title: {this.movie.title}</p>
+        <p>Summary: {this.movie.summary}</p>
       </div>
     );
   }

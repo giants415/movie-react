@@ -1,7 +1,7 @@
 var React = require('react');
 
 class MovieComponent extends React.Component {
-  
+
   constructor(props){
     super(props);
 

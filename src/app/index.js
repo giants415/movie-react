@@ -22,6 +22,7 @@ class UIComponent extends React.Component {
       </div>
     );
   }
+  
 }
 
 ReactDOM.render(<UIComponent movies={movies}/>, document.getElementById('movieWrapper'));

@@ -6,6 +6,7 @@ var SearchComponent = require('./SearchComponent');
 var MovieComponent = require('./MovieComponent');
 
 class UIComponent extends React.Component {
+
   render() {
     return(
       <div className={"ui"}>
@@ -16,6 +17,5 @@ class UIComponent extends React.Component {
     );
   }
 }
-
 
 ReactDOM.render(<UIComponent />, document.getElementById('movieWrapper'));

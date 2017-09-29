@@ -8,10 +8,10 @@ var MovieComponent = require('./MovieComponent');
 class UIComponent extends React.Component {
   render() {
     return(
-      <div>
+      <div className={"ui"}>
         <h1>Look Up a Movie</h1>
-        <SearchComponent></SearchComponent>
-        <MovieComponent></MovieComponent>
+        <SearchComponent className={"search"} />
+        <MovieComponent className={"movie"} />
       </div>
     );
   }

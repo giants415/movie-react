@@ -1,6 +1,7 @@
 var React = require('react');
 
 class MovieComponent extends React.Component {
+  
   constructor(props){
     super(props);
 
@@ -10,7 +11,6 @@ class MovieComponent extends React.Component {
       summary: 'Destroys a ring or something'
     }
   }
-
 
   render() {
     return(

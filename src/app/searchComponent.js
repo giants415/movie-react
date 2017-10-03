@@ -4,7 +4,7 @@ class SearchComponent extends React.Component {
   constructor() {
     super();
     this.state = {
-      search: 'Enter a Movie Title'
+      search: ''
     };
   }
 

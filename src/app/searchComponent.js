@@ -12,12 +12,16 @@ class SearchComponent extends React.Component {
     this.setState({search: event.target.value});
   }
 
-
-
   render() {
+    let filteredMovies = this.props.movies;
+
     return(
       <div>
-        <input type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} /><button>Search</button>
+        <input
+           type="text"
+           value={this.state.search}
+           onChange={this.updateSearch.bind(this)} />
+        <button>Search</button>
       </div>
     );
   }

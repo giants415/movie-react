@@ -1,15 +1,19 @@
 var React = require('react');
 
+import Movie from './movie';
+
 
 class MovieComponent extends React.Component {
 
   render() {
     return(
-      <div>
-        <img src={this.props.movies.poster} />
-        <p>Title: {this.props.movies.title}</p>
-        <p>Summary: {this.props.movies.summary}</p>
-      </div>
+      <ul>
+        {
+          this.props.movies.map((movie)=> {
+            return <Movie movie={movie} />
+          })
+        }
+      </ul>
     );
   }
 }

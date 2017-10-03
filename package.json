@@ -4,8 +4,8 @@
   "description": "React based app that will eventually consume the movie db api",
   "main": "index.js",
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -15,7 +15,7 @@
     "css-loader": "^0.28.7",
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.8.2"
+    "webpack-dev-server": "^2.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

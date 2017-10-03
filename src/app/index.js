@@ -38,7 +38,7 @@ class UIComponent extends React.Component {
     return(
       <div className={"ui"}>
         <h1>Look Up a Movie</h1>
-        <SearchComponent className={"search"} />
+        <SearchComponent className={"search"} movies={this.props.movies} />
         <MovieComponent className={"movie"} movies={this.props.movies} />
       </div>
     );

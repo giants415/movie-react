@@ -10,7 +10,7 @@ class MovieComponent extends React.Component {
       <ul>
         {
           this.props.movies.map((movie)=> {
-            return <Movie movie={movie} />
+            return <Movie movie={movie} key={movie.id}/>
           })
         }
       </ul>

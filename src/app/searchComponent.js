@@ -13,7 +13,6 @@ class SearchComponent extends React.Component {
   }
 
   render() {
-    console.log(this.props.movies);
     let filteredMovies = this.props.movies.filter(
       (movie) => {
         return movie.title.indexOf(this.state.search) !== -1;
